@@ -103,13 +103,27 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\InitNetwork.gml</script>
+    <script>scripts\RecordOn.gml</script>
+    <script>scripts\RecordOff.gml</script>
+    <script>scripts\PlayOn.gml</script>
+    <script>scripts\Hello.gml</script>
+    <script>scripts\SendNetwork.gml</script>
+    <script>scripts\ReceiveNetwork.gml</script>
+    <script>scripts\PlayClip.gml</script>
+    <script>scripts\RecordClip.gml</script>
+    <script>scripts\Idle.gml</script>
+    <script>scripts\CheckQueued.gml</script>
+  </scripts>
   <objects name="objects">
+    <object>objects\init_control</object>
     <object>objects\arrow</object>
     <object>objects\usercount</object>
     <object>objects\ptt</object>
     <object>objects\mic</object>
     <object>objects\talking</object>
-    <object>objects\init_control</object>
+    <object>objects\talk_control</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\init</room>
