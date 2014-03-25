@@ -1,0 +1,19 @@
+name: PartyLineServer
+version: 0.0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+synopsis: Server for PartyLine
+description:
+data-dir: ""
+
+executable PartyLineServer
+    build-depends:
+      QuickCheck -any,
+      base -any,
+      process,
+      deepseq
+    main-is: PartyLineServer.hs
+    buildable: True
+    hs-source-dirs: src
